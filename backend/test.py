@@ -4,7 +4,6 @@ from app.services.affinda import parse_resume_file
 from app.services.adzuna import search_jobs_japan
 from app.utils.matcher import sort_jobs_by_match
 from app.services.deepl import translate_text
-import os
 
 # Load .env keys (optional, if not using dotenv CLI)
 from dotenv import load_dotenv

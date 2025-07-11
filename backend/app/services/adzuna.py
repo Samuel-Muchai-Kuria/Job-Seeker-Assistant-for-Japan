@@ -1,10 +1,10 @@
 # backend/app/services/adzuna.py
 
 from dotenv import load_dotenv
-load_dotenv()
 import requests
 import os
 
+load_dotenv()
 ADZUNA_APP_ID = os.getenv("ADZUNA_APP_ID")
 ADZUNA_APP_KEY = os.getenv("ADZUNA_APP_KEY")
 # BASE_URL = "https://api.adzuna.com/v1/api/jobs/jp/search/1"  # JP = Japan
