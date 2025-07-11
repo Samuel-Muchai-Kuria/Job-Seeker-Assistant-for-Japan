@@ -21,3 +21,7 @@ venv.bak/
 *.log
 # pdfs 
 *.pdf
+
+# pytest cache
+.pytest_cache/
+.vscode
